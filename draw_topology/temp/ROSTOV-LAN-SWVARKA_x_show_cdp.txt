@@ -1,0 +1,10 @@
+ROSTOV-LAN-SWVARKA#show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+ROSTOV-LAN-SWSGP.baltikacorp.ds.local
+                 Gig 0/1           163           S I      WS-C3750- Fas 1/0/35
+SEP006440B51AA6  Fas 0/6           151           H P      IP Phone  Port 1
+AP0024.1445.30b2 Fas 0/1           124            T       AIR-LAP11 Fas 0
+SEP503DE52FC296  Fas 0/7           128           H P      IP Phone  Port 1

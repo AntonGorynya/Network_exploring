@@ -1,0 +1,15 @@
+ServMES#$                                          show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Elevator.baltikacorp.ds.local
+                 Gig 1/1/1         170              S I   WS-C2960C Gig 0/1
+PulVarki.baltikacorp.ds.local
+                 Gig 1/1/2         135              S I   WS-C2960X Gig 1/0/27
+PulFilter.baltikacorp.ds.local
+                 Gig 1/1/3         173              S I   WS-C2960X Gig 1/0/28
+PulKeraflux.baltikacorp.ds.local
+                 Gig 1/1/4         173              S I   WS-C2960X Gig 1/0/27
+ServMES#

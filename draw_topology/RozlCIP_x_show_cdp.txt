@@ -1,0 +1,9 @@
+RozlCIP# show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+RozlLine6-1.baltikacorp.ds.local
+                 Gig 1/0/1         146              S I   WS-C2960X Gig 1/0/1
+RozlCIP#

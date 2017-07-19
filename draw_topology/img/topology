@@ -1,0 +1,26 @@
+graph {
+	graph [bgcolor="#333333" fontcolor=white fontsize=16 label="Network Map" rankdir=BT]
+	node [color="#006699" fillcolor="#006699" fontcolor=white fontname=Helvetica margin=0.4 shape=box style=filled]
+	edge [arrowhead=open color=green fontcolor=white fontname=Courier fontsize=14 style=dashed]
+		"Hub to "
+		donsw_mesroz
+			donsw_mesroz -- "Hub to " [label="            " headlabel=0 taillabel="Fas0/1"]
+			Elevator -- ServMES [label="            " headlabel="Gig1/1/1" taillabel="Gig0/1"]
+			"RozlLine3-1" -- RozlPET4 [label="            " headlabel="Gig1/0/27" taillabel="Gig1/0/27"]
+			donswmes1 -- ServMES [label="            " headlabel="Gig1/0/10" taillabel="Gig0/10"]
+			PulFilter -- PulKeraflux [label="            " headlabel="Gig1/0/28" taillabel="Gig1/0/27"]
+			"RozlLine3-2" -- "RozlLine3-1" [label="            " headlabel="Gig1/0/1" taillabel="Gig1/0/1"]
+			ServMES -- PulFilter [label="            " headlabel="Gig1/0/28" taillabel="Gig1/1/3"]
+			RozlCIP -- "RozlLine6-1" [label="            " headlabel="Gig1/0/1" taillabel="Gig1/0/1"]
+			donsw_ciproz1 -- "Hub to " [label="            " headlabel=0 taillabel="Fas0/4"]
+			RozlLineBANK1 -- "RozlLine3-2" [label="            " headlabel="Gig1/0/27" taillabel="Gig1/0/28"]
+			ServMES -- PulVarki [label="            " headlabel="Gig1/0/27" taillabel="Gig1/1/2"]
+			donsw_ciproz2 -- donsw_ciproz1 [label="            " headlabel="Fas0/2" taillabel="Fas0/5"]
+			Elevator -- PulVarki [label="            " headlabel="Gig1/0/28" taillabel="Gig0/2"]
+			donsw_mesroz -- donswmes1 [label="            " headlabel="Gig0/24" taillabel="Gig0/1"]
+			RozlPET4 -- RozlPET2 [label="            " headlabel="Gig1/0/27" taillabel="Gig1/0/28"]
+			PulKeraflux -- ServMES [label="            " headlabel="Gig1/1/4" taillabel="Gig1/0/27"]
+			"Hub to " -- RozlPET2 [label="            " headlabel="Gig1/0/5" taillabel=0]
+			RozlLineKEG -- "RozlLine6-1" [label="            " headlabel="Gig1/0/28" taillabel="Gig1/0/27"]
+			"RozlLine3-1" -- RozlLineKEG [label="            " headlabel="Gig1/0/28" taillabel="Gig1/0/28"]
+}
